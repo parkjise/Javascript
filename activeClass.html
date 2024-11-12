@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul{
+    display: flex;
+    width: 1000px;
+    max-width: 1000px;
+  }
+  ul > li{
+    flex: 1;
+    background-color:#727272;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    list-style: none;
+    cursor: pointer;
+  }
+  li.active{
+    background-color: #000;
+  }
+  .select_item.active{
+    background-color: #000;
+  }
+</style>
+<body>
+  <ul class="panel">
+    <li>test1</li>
+    <li>test2</li>
+    <li>test3</li>
+  </ul>
+  <!-- <ul class="select_list">
+    <li class="select_item">1</li>
+      <li class="select_item">2</li>
+      <li class="select_item">3</li>
+      <li class="select_item">4</li>
+  </ul> -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
