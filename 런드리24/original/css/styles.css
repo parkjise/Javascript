@@ -1,0 +1,1808 @@
+/*# sourceURL=https://laundry24.net/wp-content/themes/laundry/css/v2/styles.css?v=51 */
+/*@ sourceURL=https://laundry24.net/wp-content/themes/laundry/css/v2/styles.css?v=51 */
+header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* video */
+#video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+#video .text-area {
+  position: absolute;
+  z-index: 99;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+#video .dimmed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0000004d;
+  z-index: 99;
+}
+#video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+#video .btn-down {
+  position: absolute;
+  width: 55px;
+  bottom: 30px;
+  left: calc(50% - 27px);
+  z-index: 99;
+  animation: spotArrow2 0.5s linear 0s infinite alternate;
+}
+
+@keyframes spotArrow2 {
+  0% {
+    bottom: 16px;
+  }
+  to {
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #video .text-area {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+/* video */
+#competition .graph-area {
+  background: #f8fafd;
+  height: 700px;
+  position: relative;
+}
+#competition .graph-area::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/competition/bg_competition.svg") no-repeat;
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#competition .graph-area .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#competition .graph-area .titles {
+  position: absolute;
+  top: 130px;
+}
+#competition .graph-area .title1 {
+  margin-bottom: 20px;
+}
+#competition .graph-area .title1,
+#competition .graph-area .sub-title2 {
+  text-align: left;
+}
+#competition .graph-area .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 60px;
+  right: 90px;
+}
+#competition .graph-area .container ul {
+  display: flex;
+  align-items: flex-end;
+}
+#competition .graph-area .container ul:first-child {
+  gap: 14px;
+}
+#competition .graph-area .container .text {
+  margin-left: 27px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+}
+
+#competition .graph-area .target-area {
+  position: relative;
+}
+#competition .graph-area .target-area .balloon {
+  position: absolute;
+  top: 30px;
+  right: 160px;
+  width: auto;
+  animation: balloonMove 0.5s linear 0s infinite alternate;
+}
+
+@keyframes balloonMove {
+  0% {
+    top: 15px;
+  }
+  to {
+    top: 30px;
+  }
+}
+
+#competition .counter-box {
+  display: flex;
+  gap: 30px;
+  margin: 100px 0 100px;
+}
+#competition .counter-box .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 418px;
+  height: 375px;
+  border-radius: 20px;
+  background-color: #f8fafd;
+}
+#competition .counter-box img {
+  width: 188px;
+}
+#competition .counter-box .counts {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.008em;
+  margin: 15px 0 8px;
+}
+#competition .counter-box .info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+}
+
+#competition .text-area {
+  display: flex;
+  align-items: flex-end;
+  gap: 204px;
+  margin-bottom: 150px;
+}
+#competition .text-area .top-notice {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  margin-bottom: 8px;
+}
+#competition .text-area .info {
+  text-align: left;
+  flex: 1;
+}
+
+#competition .slide-area {
+  margin-bottom: 120px;
+}
+#competition .slide-area li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+#competition .slide-area li:last-child {
+  margin-right: 0;
+}
+#competition .slide-area img {
+  width: 380px;
+  height: 300px;
+  border-radius: 16px;
+}
+#competition .slide-area .badge {
+  padding: 6px 18px;
+  border-radius: 8px;
+  background-color: #d4f9f0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 34px 0 14px;
+}
+#competition .slide-area .price {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+#competition .slide-area .store {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+  margin: 10px 0 6px;
+}
+#competition .slide-area .info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+}
+#competition .slide-area .slide .slick-prev {
+  right: 70px;
+}
+@media screen and (max-width: 1023px) {
+  #competition .graph-area {
+    height: auto;
+    padding: 0 20px;
+  }
+  #competition .graph-area::before {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/competition/bg_competition_mo.svg")
+      no-repeat bottom;
+    background-size: contain;
+  }
+  #competition .graph-area .titles {
+    position: initial;
+    padding-top: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.008em;
+  }
+  #competition .graph-area .title1 {
+    margin-bottom: 14px;
+  }
+  #competition .graph-area .container {
+    position: initial;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 56px 0 40px;
+  }
+
+  #competition .counter-box {
+    gap: 20px;
+    margin: 40px 20px;
+  }
+  #competition .counter-box .box {
+    width: 100%;
+    height: 300px;
+  }
+  #competition .counter-box .counts {
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: -0.008em;
+  }
+  #competition .counter-box .info {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+  }
+  #competition .counter-box img {
+    width: 149px;
+  }
+
+  #competition .text-area {
+    align-items: flex-start;
+    gap: 14px;
+    margin: 20px 20px 30px 20px;
+    flex-direction: column;
+  }
+
+  #competition .slide-area {
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  #competition .slide-area li {
+    margin-right: 13px;
+  }
+  #competition .slide-area img {
+    width: 330px;
+    border-radius: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #competition .graph-area .target-area .balloon {
+    right: 90px;
+    height: 52px;
+  }
+
+  @keyframes balloonMove {
+    0% {
+      top: 1px;
+    }
+    to {
+      top: 10px;
+    }
+  }
+
+  #competition .counter-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* story style */
+#story {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/story_bg.png") no-repeat;
+  background-size: cover;
+  height: 796px;
+}
+#story .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 107px;
+  position: relative;
+}
+#story .titles {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#story .titles .title1 {
+  text-align: left;
+}
+
+#story .boxs {
+  position: relative;
+  width: 443px;
+  height: 227px;
+}
+#story .txt-box {
+  color: transparent;
+  display: inline-block;
+  transition-duration: 0.4s;
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+}
+#story .txt-box .profile {
+  margin-top: 21px;
+  width: auto;
+  height: 108px;
+}
+#story .txt-box:nth-child(1) .profile {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/profile_03.svg") no-repeat;
+      background-size: contain !important;
+}
+#story .txt-box:nth-child(2) .profile {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/profile_02.svg") no-repeat;
+      background-size: contain !important;
+}
+#story .txt-box:nth-child(3) .profile {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/profile_01_20241023.png") no-repeat;
+      background-size: contain !important;
+}
+
+#story .txt-box.on {
+  opacity: 1;
+}
+#story .titles .comment {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+}
+#story .titles .comment .quotes {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/icon_quotes.svg") no-repeat;
+  width: auto;
+  height: 22px;
+}
+#story .titles .comment .text {
+  margin-top: 8px;
+}
+
+#story .youtube {
+  width: 785px;
+  height: 454px;
+  border: 6px solid #3acea6;
+  border-radius: 4px;
+}
+#story .youtube .slick-arrow,
+#story .youtube .slick-dots {
+  display: none !important;
+}
+
+#story .slide-control {
+  position: absolute;
+  bottom: -60px;
+  display: inline-flex;
+  align-items: center;
+}
+
+#story .slide-control .now-count,
+#story .slide-control .all-count {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  width: 24px;
+}
+
+#story .slide-control .progressbar {
+  width: 180px;
+  height: 2px;
+  position: unset;
+  margin: 0 12px;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#story .slide-control .progressbar .progressbar-fill {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #fff, #fff);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.3s ease-in-out;
+}
+
+#story .slide-control .arrows {
+  display: flex;
+  margin-left: 22px;
+  position: relative;
+  cursor: pointer;
+}
+
+#story .slide-control .arrows .swiper-button-next,
+#story .slide-control .arrows .swiper-button-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: unset;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 24px;
+  height: 24px;
+}
+
+#story .slide-control .arrows .swiper-button-next:after,
+#story .slide-control .arrows .swiper-button-prev:after {
+  content: "";
+  display: block;
+}
+
+#story .slide-control .arrows .swiper-button-prev {
+  background-image: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/btn_arrow_left.svg");
+  margin-right: 8px;
+}
+
+#story .slide-control .arrows .swiper-button-next {
+  background-image: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/btn_arrow_right.svg");
+}
+
+#story .youtube iframe {
+  width: 780px;
+  height: 442px;
+}
+
+@media screen and (max-width: 1023px) {
+  #story {
+    height: auto;
+  }
+  #story .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  #story .titles {
+    gap: 14px;
+  }
+  #story .boxs {
+    position: initial;
+    width: 100%;
+    min-height: 200px;
+    height: initial;
+  }
+  #story .txt-box {
+    width: 100%;
+  }
+  #story .txt-box .profile {
+    margin-top: 30px;
+    width: auto;
+    height: 86px;
+  }
+  #story .txt-box:nth-child(1) .profile {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/profile_01_mo.png?v=202410184") no-repeat;
+  }
+  #story .txt-box:nth-child(2) .profile {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/profile_02_mo.png?v=202410184") no-repeat;
+  }
+  #story .txt-box:nth-child(3) .profile {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/story/profile_03_mo.png?v=202410184") no-repeat;
+  }
+  #story .titles .comment {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+  }
+
+  #story .youtube {
+    width: 100%;
+    height: auto;
+    border: 3px solid #3acea6;
+  }
+
+  #story .youtube .slick-slide {
+    width: 100vw;
+  }
+  #story .youtube iframe {
+    aspect-ratio: 16 / 9;
+    width: 93%;
+    object-fit: cover;
+  }
+
+  #story .slide-control {
+    position: relative;
+    bottom: 0;
+    left: 45%;
+  }
+  #story .slide-control .now-count,
+  #story .slide-control .all-count,
+  #story .slide-control .line {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+    color: #fff;
+    width: auto;
+  }
+  #story .slide-control .line {
+    padding: 0 5px;
+  }
+  #story .slide-control .progressbar {
+    display: none;
+  }
+  #story .slide-control .arrows {
+    position: absolute;
+    top: 0;
+  }
+  #story .slide-control .arrows .swiper-button-prev {
+    position: absolute;
+    left: -60px;
+    margin-right: 0;
+  }
+  #story .slide-control .arrows .swiper-button-next {
+    position: absolute;
+    right: -60px;
+  }
+}
+/* price style */
+#price {
+  background-color: #53d4b1;
+}
+#price .container {
+  width: 866px;
+  margin: 60px auto 0;
+}
+#price .tab-nav {
+  display: flex;
+  gap: 4px;
+}
+#price .tab-nav li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  padding: 0 25px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  height: 51px;
+  color: #818897;
+  background: #e4e7ec;
+}
+#price .tab-nav li a::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+}
+#price .tab-nav li:nth-child(1) a::before {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/icon_tap01_off.svg") no-repeat;
+}
+#price .tab-nav li:nth-child(2) a::before {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/icon_tap02_off.svg") no-repeat;
+}
+#price .tab-nav li:nth-child(3) a::before {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/icon_tap03_off.svg") no-repeat;
+}
+#price .tab-nav li a.active {
+  background: #fff;
+  color: #2e3138;
+}
+#price .tab-nav li:nth-child(1) a.active::before {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/icon_tap01.svg") no-repeat;
+}
+#price .tab-nav li:nth-child(2) a.active::before {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/icon_tap02.svg") no-repeat;
+}
+#price .tab-nav li:nth-child(3) a.active::before {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/icon_tap03.svg") no-repeat;
+}
+#price .tab-nav li:hover a::after,
+#price .tab-nav li a.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 22%;
+  height: 2px;
+  width: 60%;
+  border-radius: 50px;
+  background: #0ac290;
+}
+#price .tab-content {
+  background: #fff;
+  padding: 30px 41px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+}
+#price .tab-content .table-wrap {
+  height: 594px;
+}
+#price .tab-content .table-wrap:nth-child(1) {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/price01.svg?v=3") no-repeat;
+  background-size: cover;
+}
+#price .tab-content .table-wrap:nth-child(2) {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/price02.svg?v=3") no-repeat;
+  background-size: cover;
+}
+#price .tab-content .table-wrap:nth-child(3) {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/price03.svg?v=3") no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1023px) {
+  #price .content {
+    padding: 60px 20px 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #price .container {
+    width: fit-content;
+    margin: 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 0;
+  }
+  #price .tab-nav {
+    gap: 3px;
+  }
+  #price .tab-nav li a {
+    font-size: 12px;
+    line-height: 18px;
+    gap: 2px;
+    padding: 0 8px;
+    height: 30px;
+  }
+  #price .tab-nav li a::before {
+    width: 16px;
+    height: 16px;
+  }
+  #price .tab-content {
+    min-width: 335px;
+    min-height: 305px;
+    padding: 6px 5px 5px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+  }
+
+  #price .tab-content .table-wrap {
+    height: 305px;
+    min-width: 335px;
+  }
+  #price .tab-content .table-wrap:nth-child(1) {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/price01_mo.svg") no-repeat;
+      background-size: contain !important;
+  }
+  #price .tab-content .table-wrap:nth-child(2) {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/price02_mo.svg") no-repeat;
+      background-size: contain !important;
+  }
+  #price .tab-content .table-wrap:nth-child(3) {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/price/price03_mo.svg") no-repeat;
+      background-size: contain !important;
+  }
+}
+
+/* about style */
+#about .titles .title1 {
+  margin-bottom: 20px;
+}
+
+#about .mansion-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #e4e7ec;
+  padding: 80px 0;
+}
+#about .mansion-area .img-area {
+  margin-bottom: 30px;
+}
+#about .mansion-area .titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about .merit-area {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  margin-bottom: 47px;
+}
+#about .merit-area .items {
+  display: flex;
+  gap: 142px;
+}
+#about .merit-area .items .title,
+#about .merit-area .items .sub-title {
+  text-align: left;
+}
+
+#about .merit-area .items .badge {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  padding-bottom: 8px;
+}
+#about .merit-area .items .sub-title1 {
+  padding: 22px 0 12px;
+}
+#about .merit-area .items .info {
+  text-align: left;
+}
+
+#about .merit-area .items .hash-btns {
+  width: 95%;
+  padding-top: 60px;
+  font-size: 0px;
+}
+#about .merit-area .items .hash-btns .btn {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 14px 14px 0;
+  padding: 8px 22px;
+  border-radius: 30px;
+  border: 1px solid #0ac290;
+  color: #089b73;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+#about .merit-area .items .hash-btns .btn.on {
+  background-color: #0ac290;
+  color: #fff;
+}
+
+.btn-hover {
+  background-color: #0ac29059;
+  color: #fff;
+}
+
+#about .merit-area .items .slide {
+  width: 642px;
+  height: 530px;
+}
+
+#about .merit-area .items .slide .slick-list li {
+  width: 642px;
+  height: 530px;
+  border-radius: 20px;
+}
+
+#about .merit-area .items .slide .slick-list li img,
+#about .merit-area .items .slide .slick-list li video {
+  border-radius: 20px;
+}
+
+#about .banner-area {
+  position: relative;
+  height: 74px;
+  overflow: hidden;
+}
+#about .banner-area .banner {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/banner.svg") repeat-x;
+  height: 74px;
+  width: 100%;
+  animation: rolling 25s linear infinite;
+}
+@keyframes rolling {
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+#about .dry-area .types-area,
+#about .laundry-room-area .types-area {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px 0 80px;
+}
+
+#about .dry-area .types-area .box,
+#about .laundry-room-area .types-area .box {
+  width: 145px;
+  text-align: center;
+  padding: 30px 43px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 26px 0px #959da52e;
+}
+#about .dry-area .types-area img,
+#about .laundry-room-area .types-area img {
+  width: auto;
+  margin: 0 auto;
+}
+#about .dry-area .types-area .types,
+#about .laundry-room-area .types-area .types {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+  text-align: center;
+}
+
+#about .dry-area .types-area .items,
+#about .laundry-room-area .types-area .items {
+  padding-top: 6px;
+}
+
+#about .dry-area {
+  background: #f5f6f7;
+}
+
+#about .dry-area .title-wrap {
+  position: relative;
+}
+#about .dry-area .title-wrap .lottie-wrap {
+  position: absolute;
+  top: 66px;
+  right: -64px;
+}
+
+#about .dry-area .slide-title {
+  margin-bottom: 90px;
+}
+#about .dry-area .dry-slide {
+  margin-top: 30px;
+  position: relative;
+}
+#about .dry-area .dry-slide .imgs {
+  position: relative;
+  margin-right: 30px;
+  height: 520px;
+}
+#about .dry-area .dry-slide .imgs:last-child {
+  margin-right: 0;
+}
+#about .dry-area .dry-slide .imgs::after {
+  content: "";
+  display: block;
+  background-size: contain;
+  position: absolute;
+  width: -webkit-fill-available;
+  height: 50px;
+  bottom: 55px;
+  left: 40px;
+}
+#about .dry-area .dry-slide .imgs:nth-child(1)::after {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge01.svg?v=202410184") no-repeat;
+}
+#about .dry-area .dry-slide .imgs:nth-child(2)::after {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge02.svg?v=202410184") no-repeat;
+}
+#about .dry-area .dry-slide .imgs:nth-child(3)::after {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge03.svg?v=202410184") no-repeat;
+}
+#about .dry-area .dry-slide .imgs:nth-child(4)::after {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge04.svg?v=202410184") no-repeat;
+}
+#about .dry-area .dry-slide .imgs:nth-child(5)::after {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge05.svg?v=202410184") no-repeat;
+}
+
+#about .dry-area .dry-slide li .badge {
+  position: absolute;
+  width: auto;
+  bottom: 30px;
+  left: 33px;
+}
+#about .dry-area .dry-slide li .img {
+  height: 520px;
+  width: 418px;
+}
+#about .dry-area .slide li img,
+#about .dry-area .slide li video {
+  border-radius: 20px;
+}
+
+#about .platform-area .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 142px;
+}
+
+#about .platform-area .container .titles {
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+#about .platform-area .container .nav {
+  margin-top: 40px;
+}
+#about .platform-area .container .nav li {
+  margin-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+#about .platform-area .container .nav li.is_active {
+  color: #0ac290;
+  font-weight: 700;
+}
+#about .platform-area .container .contents {
+  flex: 1;
+}
+#about .platform-area .container .contents section:first-child {
+  padding-top: 0;
+}
+#about .platform-area .container .contents section {
+  padding-top: 120px;
+}
+
+#about .platform-area .container .contents section .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  margin: 30px 0 12px;
+}
+#about .platform-area .container .contents section .info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+}
+#about .platform-area .container .contents section .info .steps {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+  color: #2e3138;
+  margin-top: 10px;
+}
+#about .platform-area .container .contents section .info .steps:first-child {
+  margin-top: 0;
+}
+
+#about .laundry-room-area {
+  background: #f5f6f7;
+}
+
+#about .laundry-room-area .title-wrap {
+  position: relative;
+}
+#about .laundry-room-area .title-wrap .lottie-wrap {
+  position: absolute;
+  top: 23px;
+  left: -30px;
+}
+
+#about .laundry-room-area .types-area .box {
+  width: 167px;
+  padding: 30px 32px;
+}
+#about .laundry-room-area .slide {
+  margin-top: -120px;
+  padding-bottom: 120px;
+}
+
+#about .laundry-room-area .slide li {
+  position: relative;
+  margin-right: 30px;
+  max-width: 1090px;
+}
+
+#about .laundry-room-area .slide li:last-child {
+  margin-right: 0;
+}
+
+#about .laundry-room-area .slide li .dimmed {
+  background-color: #e4e7ec;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  background:linear-gradient(to right, rgba(228, 231, 236, 0.9) 0%, rgba(228, 231, 236, 0.9) 10%, rgba(245, 246, 247, 1) 30%, rgba(245, 246, 247, 1) 70%, rgba(228, 231, 236, 0.9) 100%, rgba(228, 231, 236, 0.9) 100%);
+}
+#about .laundry-room-area .slide li.slick-active .dimmed {
+  display: none;
+}
+
+#about .laundry-room-area .slide img {
+  width: auto;
+  border-radius: 20px;
+}
+
+#about .laundry-room-area .slick-arrow {
+  top: 40%;
+}
+#about .laundry-room-area .slick-prev {
+  left: 40px;
+}
+#about .laundry-room-area .slick-next {
+  right: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  #about .titles .title1 {
+    margin-bottom: 14px;
+  }
+  #about .mansion-area {
+    padding: 60px 20px 20px;
+  }
+  #about .merit-area {
+    gap: 87px;
+    margin-bottom: 40px;
+    padding: 40px 20px 50px;
+  }
+
+  #about .merit-area .items {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #about .merit-area .items .hash-btns {
+    width: 100%;
+    padding-top: 30px;
+  }
+  #about .merit-area .items .hash-btns .btn {
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.006em;
+    margin: 0 8px 8px 0;
+  }
+
+  #about .merit-area .items .slide {
+    height: 276px;
+    width: 100%;
+    border-radius: 14px;
+  }
+  #about .merit-area .items .slide .slick-list li {
+    height: 276px;
+    width: auto;
+    overflow: hidden;
+  }
+  #about .merit-area .items .slide .slick-list li video,
+  #about .merit-area .items .slide .slick-list li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+  }
+  #about .merit-area .items .slide .slick-list li video {
+    transform: scale(1.05);
+  }
+
+  #about .merit-area .items.slide2 {
+    flex-direction: column-reverse;
+  }
+
+  #about .merit-area .slick-list {
+    border-radius: 14px;
+  }
+
+  #about .dry-area .content {
+    padding: 60px 0 50px;
+  }
+
+  #about .dry-area .dry-slide {
+    margin-left: 20px;
+  }
+  #about .banner-area .banner {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/m_banner.svg") repeat-x;
+    animation: rolling 40s linear infinite;
+  }
+  @keyframes rolling {
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+  #about .dry-area .title-wrap {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #about .dry-area .title-wrap .lottie-wrap {
+    position: initial;
+    margin-bottom: 10px;
+  }
+  #about .dry-area .slide-title {
+    margin-bottom: 0;
+  }
+
+  #about .dry-area .titles .body2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.006em;
+  }
+
+  #about .dry-area .slide .slick-arrow {
+    top: 40%;
+  }
+  #about .dry-area .dry-slide .imgs {
+    margin-right: 13px;
+
+    height: auto;
+    position: relative;
+  }
+  #about .dry-area .dry-slide li .img {
+    height: auto;
+    width: 320px;
+  }
+
+  #about .dry-area .dry-slide .imgs::after {
+    content: "";
+    display: block;
+    background-size: contain;
+    position: absolute;
+    height: 42px;
+    bottom: 38px;
+    left: auto;
+  }
+  #about .dry-area .dry-slide .imgs:nth-child(1)::after {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge01_mo.svg?v=202410184")
+      no-repeat top;
+  }
+  #about .dry-area .dry-slide .imgs:nth-child(2)::after {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge02_mo.svg?v=202410184")
+      no-repeat top;
+  }
+  #about .dry-area .dry-slide .imgs:nth-child(3)::after {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge03_mo.svg?v=202410184")
+      no-repeat top;
+  }
+  #about .dry-area .dry-slide .imgs:nth-child(4)::after {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge04_mo.svg?v=202410184")
+      no-repeat top;
+  }
+  #about .dry-area .dry-slide .imgs:nth-child(5)::after {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dry_stations_badge05_mo.svg?v=202410184")
+      no-repeat top;
+  }
+  #about .dry-area .dry-slide .slick-counter {
+    display: none;
+  }
+
+  #about .platform-area .content,
+  #about .laundry-room-area .content {
+    padding: 40px 20px 50px;
+  }
+  #about .platform-area .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #about .platform-area .container .titles {
+    position: initial;
+  }
+  #about .platform-area .container .nav {
+    display: none;
+  }
+  #about .platform-area .container .contents section {
+    padding-top: 50px;
+  }
+  #about .platform-area .container .contents section img {
+    border-radius: 8px;
+  }
+  #about .platform-area .container .contents section .top-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+    margin-top: 20px;
+    color: #0ac290;
+  }
+  #about .platform-area .container .contents section .title {
+    margin: 4px 0 14px;
+  }
+  #about .platform-area .container .contents section .info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+  }
+
+  #about .platform-area .container .contents section .info .steps {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+    color: #515662;
+  }
+
+  #about .laundry-room-area .title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #about .laundry-room-area .title-wrap .lottie-wrap {
+    position: initial;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+
+  #about .laundry-room-area .slide {
+    margin-top: -50px;
+    padding-bottom: 50px;
+  }
+  #about .laundry-room-area .slide li {
+    max-width: 300px;
+    margin-right: 13px;
+  }
+  #about .laundry-room-area .slide li .dimmed,
+  #about .laundry-room-area .slide img {
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #about .dry-area .content .titles,
+  #about .dry-area .content .types-area {
+    padding: 0 20px;
+  }
+
+  #about .dry-area .types-area,
+  #about .laundry-room-area .types-area {
+    margin: 30px 0 50px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #about .dry-area .types-area .box,
+  #about .laundry-room-area .types-area .box {
+    width: auto;
+    padding: 30px 0;
+    border-radius: 14px;
+  }
+
+  #about .dry-area .types-area .types,
+  #about .laundry-room-area .types-area .types {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+    text-align: center;
+  }
+}
+
+/* process style */
+#process .titles .title1 {
+  margin-bottom: 20px;
+}
+#process .container {
+  max-width: 1314px;
+  margin: 60px auto 0;
+}
+#process .container .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+#process .container .boxs {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+#process .container .box {
+  min-width: 240px;
+  padding: 33px 27px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 26px 0px #959da52e;
+}
+#process .container .box .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #2e3138;
+}
+#process .container .box .body2 {
+  padding: 8px 0 9.5px;
+  border-bottom: 1px solid #cbcfda;
+}
+#process .container .box .process-number {
+  padding-top: 9.5px;
+  color: #0ac290;
+}
+
+#process .container .arrow-wrap {
+  width: 292px;
+}
+#process .container .arrow {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/process/icon_process_arrow.svg") no-repeat;
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+#process .container .arrow.down {
+  transform: rotate(90deg);
+  margin: 0 auto;
+}
+#process .container .arrow.revert {
+  transform: rotate(180deg);
+}
+#process .container .img-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+#process .container .img-wrap img {
+  width: 110px;
+}
+
+@media screen and (max-width: 1023px) {
+  #process .titles .title1 {
+    margin-bottom: 14px;
+  }
+  #process .content {
+    padding: 60px 20px 50px;
+  }
+  #process .container {
+    max-width: none;
+    margin: 30px auto 0;
+  }
+  #process .container .inner {
+    align-items: center;
+  }
+
+  #process .container .boxs {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  #process .container .boxs.last-boxs {
+    flex-direction: column-reverse;
+  }
+
+  #process .container .boxs .arrow {
+    transform: rotate(90deg);
+  }
+  #process .container .boxs .arrow.revert {
+    transform: rotate(90deg);
+  }
+  #process .container .box {
+    min-width: 250px;
+    padding: 18px 30px;
+    border-radius: 14px;
+    width: 100%;
+  }
+  #process .container .img-wrap img {
+    width: 100px;
+  }
+}
+
+/* inquiry style */
+#inquiry .titles .title1 {
+  margin-bottom: 20px;
+}
+#inquiry .container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+#inquiry .container .inquiry-form {
+  width: 886px;
+}
+#inquiry .container .inquiry-form .sub-title1 {
+  background: #e3f9f4;
+  padding: 15px 24px 14px;
+  border-radius: 10px;
+}
+#inquiry .container .form-area {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#inquiry .container .form-area fieldset {
+  width: 100%;
+}
+
+#inquiry .container .form-area ul.form {
+  text-align: left;
+}
+#inquiry .container .form-area ul.form > li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eff2f6;
+  padding: 14px 0;
+}
+#inquiry .container .form-area ul.form > li:last-child {
+  align-items: flex-start;
+}
+#inquiry .container .form-area label {
+  min-width: 174px;
+  display: inline-block;
+  padding-left: 20px;
+  position: relative;
+}
+#inquiry .container .form-area label::after {
+  display: inline-block;
+  margin-left: 4px;
+  color: #ff4a55;
+  content: "*";
+  position: absolute;
+  top: 4px;
+}
+#inquiry .container .form-area input {
+  width: 272px;
+  border: 1px solid #cbcfda;
+  padding: 8px 14px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#inquiry .container .form-area input:focus,
+#inquiry .container .form-area textarea:focus {
+  outline: 0;
+  border: 1px solid #515662;
+}
+
+#inquiry .container .form-area input.error,
+#inquiry .container .form-area textarea.error {
+  border: 1px solid #ff4a55;
+}
+
+#inquiry .container .form-area .select-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 272px;
+  border: 1px solid #cbcfda;
+  padding: 8px 14px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#inquiry .container .form-area .select-box img {
+  width: auto;
+}
+#inquiry .container .form-area .select-list {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 0;
+  width: calc(100% - 20px);
+  max-height: 430px;
+  padding: 8px 10px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #ebebeb;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.006em;
+}
+#inquiry .container .form-area .select-list li {
+  padding: 4px;
+}
+#inquiry .container .form-area .select-list li:hover {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+}
+
+#inquiry .container .form-area textarea {
+  border: 1px solid #cbcfda;
+  border-radius: 5px;
+  width: 687px;
+  height: 130px;
+  padding: 10px;
+  line-height: 160%;
+  resize: none;
+  box-sizing: border-box;
+  text-align: left;
+}
+#inquiry .container .form-area .textLength-box {
+  text-align: right;
+  margin-top: -8px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.004em;
+}
+
+#inquiry .container .privacy-area {
+  background: #f7f7f7;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+#inquiry .container .privacy-area .check-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+#inquiry .container .privacy-area .check-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+}
+#inquiry .container .privacy-area .check-wrap .check-btn {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/icon_unCheck.svg") no-repeat;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+#inquiry .container .privacy-area .check-wrap.checked .check-btn {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/icon_check.svg") no-repeat;
+}
+#inquiry .container .privacy-area .btn {
+  background-color: #d0d0d2;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  border-radius: 6px;
+}
+#inquiry .container .privacy-area .btn.clicked {
+  background-color: #2e3138;
+}
+#inquiry .container .privacy-area .text-box {
+  display: none;
+}
+
+#inquiry .container .privacy-area .text-box .title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  padding-bottom: 6px;
+}
+#inquiry .container .privacy-area .text-box .info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+}
+#inquiry .container .privacy-area .text-box.show {
+  display: block;
+  padding: 4px 0 24px 55px;
+}
+#inquiry .container .privacy-area .text-box.show .title,
+#inquiry .container .privacy-area .text-box.show .info {
+  height: auto;
+  opacity: 1;
+}
+
+#inquiry .container .btn-area {
+  text-align: center;
+  margin-top: 30px;
+}
+#inquiry .container .submit-btn {
+  background-color: #0ac290;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+#inquiry .container .submit-btn:hover {
+  background-color: #089b73;
+}
+
+@media screen and (max-width: 1023px) {
+  #inquiry .content {
+    padding: 60px 20px 50px;
+  }
+  #inquiry .titles .title1 {
+    margin-bottom: 14px;
+  }
+  #inquiry .container .inquiry-form .sub-title1 {
+    border-radius: 4px;
+  }
+
+  #inquiry .container {
+    display: block;
+    margin-top: 30px;
+  }
+
+  #inquiry .container .inquiry-form {
+    width: auto;
+  }
+
+  #inquiry .container .form-area {
+    display: block;
+  }
+  #inquiry .container .form-area ul.form > li {
+    align-items: flex-start;
+    padding: 20px 0 0;
+    border-bottom: 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #inquiry .container .form-area label {
+    padding-left: 0;
+  }
+
+  #inquiry .container .form-area input {
+    padding: 6px 14px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  #inquiry .container .form-area textarea {
+    border-radius: 4px;
+    width: 100%;
+    height: 125px;
+  }
+
+  #inquiry .container .form-area .textLength-box {
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: -0.006em;
+    margin-top: 0;
+  }
+  #inquiry .container .privacy-area {
+    border-radius: 4px;
+  }
+  #inquiry .container .privacy-area .check-box {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+  #inquiry .container .privacy-area .text-box.show {
+    padding: 0 20px 20px 20px;
+  }
+  #inquiry .container .privacy-area .check-wrap {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+  }
+  #inquiry .container .privacy-area .btn {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.006em;
+  }
+  #inquiry .container .form-area .select-box img {
+    width: 20px;
+  }
+  #inquiry .container .form-area .select-box,
+  #inquiry .container .form-area .textarea {
+    width: 100%;
+  }
+}
+/* fnq style */
+#fnq {
+  background-color: #f8fafd;
+}
+#fnq .container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+#fnq .fnq-list {
+  width: 886px;
+}
+#fnq .fnq-list li {
+  border-top: 1px solid #cbcfda;
+  cursor: pointer;
+  position: relative;
+}
+#fnq .fnq-list li:last-child {
+  border-bottom: 1px solid #cbcfda;
+}
+#fnq .question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 24px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+#fnq .question::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/close_btn.svg") no-repeat;
+  width: 18px;
+  height: 18px;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+#fnq .answer {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+  height: 0;
+  opacity: 0;
+}
+#fnq .fnq-list li.show .question::after {
+  transform: rotate(90deg);
+}
+#fnq .fnq-list li.show .answer {
+  display: block;
+  padding: 0 24px 30px;
+  height: auto;
+  opacity: 1;
+}
+#store .container {
+  margin-top: 60px;
+  height: 860px;
+}
+@media screen and (max-width: 1023px) {
+  #fnq .content {
+    padding: 60px 20px 50px;
+  }
+  #fnq .container {
+    margin-top: 30px;
+  }
+  #fnq .question {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+    padding: 15px 10px;
+  }
+  #fnq .question::after {
+    width: 14px;
+    height: 14px;
+  }
+  #fnq .answer {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+  }
+  #fnq .fnq-list li.show .answer {
+    padding: 0 35px 15px 10px;
+  }
+  #store .container {
+    margin-top: 30px;
+    aspect-ratio: 1 / 1;
+  }
+}

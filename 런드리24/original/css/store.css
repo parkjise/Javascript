@@ -1,0 +1,1018 @@
+/*# sourceURL=https://laundry24.net/wp-content/themes/laundry/css/v2/store.css?v=23 */
+/*@ sourceURL=https://laundry24.net/wp-content/themes/laundry/css/v2/store.css?v=23 */
+#store{
+  --color-stylesprimarylaundry-green: rgba(10, 194, 144, 1);
+  --color-stylesprimaryblack: rgba(0, 0, 0, 1);
+  --color-stylesprimarywhite: rgba(255, 255, 255, 1);
+  --headline-h-1-48-bold-font-family: "Pretendard", Helvetica;
+  --headline-h-1-48-bold-font-weight: 700;
+  --headline-h-1-48-bold-font-size: 48px;
+  --headline-h-1-48-bold-letter-spacing: -1.44px;
+  --headline-h-1-48-bold-line-height: 64px;
+  --headline-h-1-48-bold-font-style: normal;
+  --title-title-1-40-bold-font-family: "Pretendard", Helvetica;
+  --title-title-1-40-bold-font-weight: 700;
+  --title-title-1-40-bold-font-size: 40px;
+  --title-title-1-40-bold-letter-spacing: -0.24000000953674316px;
+  --title-title-1-40-bold-line-height: 56px;
+  --title-title-1-40-bold-font-style: normal;
+  --title-title-2-34-bold-font-family: "Pretendard", Helvetica;
+  --title-title-2-34-bold-font-weight: 700;
+  --title-title-2-34-bold-font-size: 34px;
+  --title-title-2-34-bold-letter-spacing: -0.34px;
+  --title-title-2-34-bold-line-height: 48px;
+  --title-title-2-34-bold-font-style: normal;
+  --title-title-3-26-bold-font-family: "Pretendard", Helvetica;
+  --title-title-3-26-bold-font-weight: 700;
+  --title-title-3-26-bold-font-size: 26px;
+  --title-title-3-26-bold-letter-spacing: -0.20800000309944153px;
+  --title-title-3-26-bold-line-height: 38px;
+  --title-title-3-26-bold-font-style: normal;
+  --sub-title-subt-1-18-reg-font-family: "Pretendard", Helvetica;
+  --sub-title-subt-1-18-reg-font-weight: 400;
+  --sub-title-subt-1-18-reg-font-size: 18px;
+  --sub-title-subt-1-18-reg-letter-spacing: -0.10800000429153442px;
+  --sub-title-subt-1-18-reg-line-height: 28px;
+  --sub-title-subt-1-18-reg-font-style: normal;
+  --sub-title-subt-2-18-bold-font-family: "Pretendard", Helvetica;
+  --sub-title-subt-2-18-bold-font-weight: 700;
+  --sub-title-subt-2-18-bold-font-size: 18px;
+  --sub-title-subt-2-18-bold-letter-spacing: -0.10800000429153442px;
+  --sub-title-subt-2-18-bold-line-height: 28px;
+  --sub-title-subt-2-18-bold-font-style: normal;
+  --sub-title-subt-3-20-med-font-family: "Pretendard", Helvetica;
+  --sub-title-subt-3-20-med-font-weight: 500;
+  --sub-title-subt-3-20-med-font-size: 20px;
+  --sub-title-subt-3-20-med-letter-spacing: -0.12000000476837158px;
+  --sub-title-subt-3-20-med-line-height: 28px;
+  --sub-title-subt-3-20-med-font-style: normal;
+  --sub-title-subt-4-22-semi-b-font-family: "Pretendard", Helvetica;
+  --sub-title-subt-4-22-semi-b-font-weight: 600;
+  --sub-title-subt-4-22-semi-b-font-size: 22px;
+  --sub-title-subt-4-22-semi-b-letter-spacing: -0.22px;
+  --sub-title-subt-4-22-semi-b-line-height: 32px;
+  --sub-title-subt-4-22-semi-b-font-style: normal;
+  --sub-title-subt-5-32-bold-font-family: "Pretendard", Helvetica;
+  --sub-title-subt-5-32-bold-font-weight: 700;
+  --sub-title-subt-5-32-bold-font-size: 32px;
+  --sub-title-subt-5-32-bold-letter-spacing: -0.2560000038146973px;
+  --sub-title-subt-5-32-bold-line-height: 42px;
+  --sub-title-subt-5-32-bold-font-style: normal;
+  --body-body-1-14-reg-font-family: "Pretendard", Helvetica;
+  --body-body-1-14-reg-font-weight: 400;
+  --body-body-1-14-reg-font-size: 14px;
+  --body-body-1-14-reg-letter-spacing: -0.056000000834465026px;
+  --body-body-1-14-reg-line-height: 24px;
+  --body-body-1-14-reg-font-style: normal;
+  --body-body-2-16-reg-font-family: "Pretendard", Helvetica;
+  --body-body-2-16-reg-font-weight: 400;
+  --body-body-2-16-reg-font-size: 16px;
+  --body-body-2-16-reg-letter-spacing: -0.12800000190734864px;
+  --body-body-2-16-reg-line-height: 26px;
+  --body-body-2-16-reg-font-style: normal;
+  --body-body-3-18-reg-font-family: "Pretendard", Helvetica;
+  --body-body-3-18-reg-font-weight: 400;
+  --body-body-3-18-reg-font-size: 18px;
+  --body-body-3-18-reg-letter-spacing: -0.10800000429153442px;
+  --body-body-3-18-reg-line-height: 28px;
+  --body-body-3-18-reg-font-style: normal;
+  --body-body-4-15-reg-font-family: "Pretendard", Helvetica;
+  --body-body-4-15-reg-font-weight: 400;
+  --body-body-4-15-reg-font-size: 15px;
+  --body-body-4-15-reg-letter-spacing: 0px;
+  --body-body-4-15-reg-line-height: 18px;
+  --body-body-4-15-reg-font-style: normal;
+  --body-body-5-13-reg-font-family: "Pretendard", Helvetica;
+  --body-body-5-13-reg-font-weight: 400;
+  --body-body-5-13-reg-font-size: 13px;
+  --body-body-5-13-reg-letter-spacing: -0.07800000309944152px;
+  --body-body-5-13-reg-line-height: 20px;
+  --body-body-5-13-reg-font-style: normal;
+  --body-body-1-14-med-font-family: "Pretendard", Helvetica;
+  --body-body-1-14-med-font-weight: 500;
+  --body-body-1-14-med-font-size: 14px;
+  --body-body-1-14-med-letter-spacing: -0.056000000834465026px;
+  --body-body-1-14-med-line-height: 24px;
+  --body-body-1-14-med-font-style: normal;
+  --button-BT-1-16-med-font-family: "Pretendard", Helvetica;
+  --button-BT-1-16-med-font-weight: 500;
+  --button-BT-1-16-med-font-size: 16px;
+  --button-BT-1-16-med-letter-spacing: 0px;
+  --button-BT-1-16-med-line-height: 26px;
+  --button-BT-1-16-med-font-style: normal;
+  --button-BT-2-18-med-font-family: "Pretendard", Helvetica;
+  --button-BT-2-18-med-font-weight: 500;
+  --button-BT-2-18-med-font-size: 18px;
+  --button-BT-2-18-med-letter-spacing: 0px;
+  --button-BT-2-18-med-line-height: 28px;
+  --button-BT-2-18-med-font-style: normal;
+  --button-BT-3-18-semi-b-font-family: "Pretendard", Helvetica;
+  --button-BT-3-18-semi-b-font-weight: 600;
+  --button-BT-3-18-semi-b-font-size: 18px;
+  --button-BT-3-18-semi-b-letter-spacing: 0px;
+  --button-BT-3-18-semi-b-line-height: 28px;
+  --button-BT-3-18-semi-b-font-style: normal;
+  --button-BT-4-20-semi-b-font-family: "Pretendard", Helvetica;
+  --button-BT-4-20-semi-b-font-weight: 600;
+  --button-BT-4-20-semi-b-font-size: 20px;
+  --button-BT-4-20-semi-b-letter-spacing: 0px;
+  --button-BT-4-20-semi-b-line-height: 30px;
+  --button-BT-4-20-semi-b-font-style: normal;
+  --footer-body-1-15-reg-font-family: "Pretendard", Helvetica;
+  --footer-body-1-15-reg-font-weight: 400;
+  --footer-body-1-15-reg-font-size: 15px;
+  --footer-body-1-15-reg-letter-spacing: 0px;
+  --footer-body-1-15-reg-line-height: 18px;
+  --footer-body-1-15-reg-font-style: normal;
+  --footer-BT-1-16-bold-font-family: "Pretendard", Helvetica;
+  --footer-BT-1-16-bold-font-weight: 700;
+  --footer-BT-1-16-bold-font-size: 16px;
+  --footer-BT-1-16-bold-letter-spacing: 0px;
+  --footer-BT-1-16-bold-line-height: 20px;
+  --footer-BT-1-16-bold-font-style: normal;
+  --FCB-headline-1-28-bold-font-family: "Pretendard", Helvetica;
+  --FCB-headline-1-28-bold-font-weight: 700;
+  --FCB-headline-1-28-bold-font-size: 28px;
+  --FCB-headline-1-28-bold-letter-spacing: 0px;
+  --FCB-headline-1-28-bold-line-height: 38px;
+  --FCB-headline-1-28-bold-font-style: normal;
+  --shadow-nav-drop:
+    0px 3px 6px 0px rgba(82, 87, 96, 0.03), 0px 10px 10px 0px rgba(
+      82,
+      87,
+      96,
+      0.03
+    ), 0px 24px 14px 0px rgba(82, 87, 96, 0.01), 0px 42px 17px 0px rgba(
+      82,
+      87,
+      96,
+      0
+    ), 0px 66px 18px 0px rgba(82, 87, 96, 0);
+  --shadow-green-drop: 0px 103px 41px 0px rgba(36, 82, 70, 0.01), 0px 160px 45px
+    0px rgba(36, 82, 70, 0);
+  --shadow-box-drop: 0px 0px 26px 0px rgba(149, 157, 165, 0.18);
+  --shadow-box-drop-02:
+    0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 4px 4px 0px rgba(0, 0, 0, 0.04), 0px 10px 6px 0px rgba(
+      0,
+      0,
+      0,
+      0.02
+    ), 0px 17px 7px 0px rgba(0, 0, 0, 0.01), 0px 27px 8px 0px rgba(0, 0, 0, 0);
+  --gradient-floating-top: 1px 1px 16px 0px rgba(82, 87, 96, 0.14);
+  --collection-1-text-color: rgba(81, 86, 98, 1);
+  --collection-1-text-color-disabled: rgba(129, 136, 151, 1);
+  --collection-1-text-color-white: rgba(255, 255, 255, 1);
+  --collection-1-text-color-green: rgba(10, 194, 144, 1);
+  --collection-1-button-color-black: rgba(46, 49, 56, 1);
+  --collection-1-text-color-green-dark-BG: rgba(83, 212, 177, 1);
+  --collection-1-text-color-error: rgba(255, 74, 85, 1);
+  --collection-1-button-color-gray: rgba(247, 247, 247, 1);
+  --collection-1-button-color-gray-hover: rgba(228, 231, 236, 1);
+  --collection-1-button-color-green: rgba(10, 194, 144, 1);
+  --collection-1-button-color-green-light: rgba(227, 249, 244, 1);
+  --collection-1-button-color-green-hover: rgba(8, 155, 115, 1);
+  --collection-1-button-color-white: rgba(255, 255, 255, 1);
+  --collection-1-button-color-white-hover: rgba(9, 174, 129, 1);
+  --collection-1-button-color-disabled: rgba(208, 208, 210, 1);
+  --collection-1-line-color-line: rgba(239, 242, 246, 1);
+  --collection-1-line-color-line-2: rgba(194, 197, 205, 1);
+  --collection-1-line-color-line-3: rgba(175, 179, 188, 1);
+  --collection-1-line-color-line-box: rgba(222, 222, 224, 1);
+  --collection-1-background-color-white: rgba(255, 255, 255, 1);
+  --collection-1-background-color-gray: rgba(248, 248, 248, 1);
+  --collection-1-background-color-gray-2: rgba(248, 250, 253, 1);
+  --collection-1-background-color-green: rgba(10, 194, 144, 1);
+  --collection-1-icon-color-green: rgba(10, 194, 144, 1);
+  --collection-1-icon-color-green-point: rgba(58, 206, 166, 1);
+  --collection-1-icon-color-black: rgba(46, 49, 56, 1);
+  --collection-1-icon-color-white: rgba(255, 255, 255, 1);
+}
+#store .container {
+    width: 1314px;
+    height: 860px;
+}
+#store .container #map {
+    width: 1314px;
+    height: 860px;
+    position: absolute;
+}
+#store .container .search {
+    position: relative;
+    width: 300px;
+    height: 550px;
+    top: 98px;
+    left: 75px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+#store .container .search .overlap-group {
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 0;
+    left: 0;
+}
+#store .container .search .frame {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#store .container .search .frame {
+    width: 100%;
+}
+#store .container .search .frame .store-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 51px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--collection-1-background-color-gray-2);
+
+    font-family: var(--body-body-3-18-reg-font-family);
+    font-weight: var(--body-body-3-18-reg-font-weight);
+    color: var(--collection-1-text-color-disabled);
+    font-size: var(--body-body-3-18-reg-font-size);
+    letter-spacing: var(--body-body-3-18-reg-letter-spacing);
+    line-height: var(--body-body-3-18-reg-line-height);
+}
+#store .container .search .frame .store-tab.on {
+    background-color: var(--collection-1-text-color-green);
+    color: #ffffff;
+}
+
+#store .container .search .search-block {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 50px;
+    left: 0;
+    background-color: var(--collection-1-text-color-green);
+}
+
+#store .container .search .search-block.on {
+    display: block;
+}
+#store .container .search .search-block .store-name-search {
+    display: flex;
+    width: 226px;
+    height: 36px;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    background-color: var(--collection-1-text-color-white);
+    border-width: 0 0 0 0;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+#store .container .search .search-block .search-btn1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 248px;
+    background-color: white;
+    padding: 7px 9px 7px 9px;
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/store/search.svg");
+    background-color: white;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#store .container .search .search-block select {
+    border : 0px;
+    text-indent : 10px;
+    position: relative;
+    width: 110px;
+    height: 39px;
+    top: 12px;
+    left: 10px;
+    margin-top: -1.00px;
+    font-family: var(--body-body-3-18-reg-font-family);
+    font-weight: var(--body-body-3-18-reg-font-weight);
+    color: var(--collection-1-text-color-disabled);
+    font-size: 14px;
+    letter-spacing: var(--body-body-3-18-reg-letter-spacing);
+    line-height: var(--body-body-3-18-reg-line-height);
+    white-space: nowrap;
+    font-style: var(--body-body-3-18-reg-font-style);
+
+    -webkit-appearance: none;  /* 크롬 화살표 없애기 */
+    -moz-appearance: none; /* 파이어폭스 화살표 없애기 */
+    appearance: none;  /* 화살표 없애기 */
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/store/open.png") no-repeat center right 10px; /* 기존의 우측 화살표를 배경 이미지로 대체 */
+    background-color: white;
+    background-size: 12px 12px;
+}
+#store .container .search .search-block select option {
+    padding-left: 10px; /* 왼쪽에 10px 여백 */
+    border-radius: 8px; /* 옵션을 둥글게 */
+    margin: 4px 0; /* 각 옵션 간의 여백 */
+}
+
+#store .container .search .search-block .search-btn2 {
+    position: absolute;
+    width: 52px;
+    height: 38px;
+    top: 12px;
+    left: 240px;
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/store/search-btn.svg"); /* 기존의 우측 화살표를 배경 이미지로 대체 */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#store .container .search .result {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    top: 127px;
+    left: 10px;
+}
+#store .container .search .msg-wrapper {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 42px;
+    background-color: var(--collection-1-button-color-green-light);
+    border-radius: 6px;
+    overflow: hidden;
+}
+#store .container .search .msg {
+    position: absolute;
+    height: 26px;
+    top: 7px;
+    left: 19px;
+    font-family: "Pretendard-SemiBold", Helvetica;
+    font-weight: 400;
+    color: var(--collection-1-text-color);
+    font-size: 16px;
+    line-height: 26px;
+    white-space: nowrap;
+}
+
+#store .container .search .store-list {
+    align-self: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 280px;
+    height: 340px;
+}
+/* 스크롤바의 폭 너비 */
+#store .container .search .store-list::-webkit-scrollbar {
+    width: 8px;
+}
+#store .container .search .store-list::-webkit-scrollbar-thumb {
+    background: var(--collection-1-line-color-line-box); /* 스크롤바 색상 */
+    border-radius: 10px; /* 스크롤바 둥근 테두리 */
+}
+#store .container .search .store-list::-webkit-scrollbar-track {
+    background: white;  /*스크롤바 뒷 배경 색상*/
+}
+#store .container .search .store-row1 {
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    width: 280px;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+
+    border: 1px solid #DEDEE0;
+    border-width: 1px 0 0 0;
+}
+#store .container .search .store-row1.on {
+    background: #E4FDF6;
+}
+#store .container .search .store-row2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    position: relative;
+    flex: 0 0 auto;
+    padding: 15px 20px 15px 20px;
+    width: 240px;
+}
+
+/* Frame 1000004531 */
+#store .container .search .store-anchor {
+    width: 12px;
+    height: 14px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#store .container .search .store-name {
+    width: 220px;
+    height: 26px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-indent: 15px;
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    color: #000000;
+    letter-spacing: var(--body-body-2-16-reg-letter-spacing);
+    background: url(https://laundry24.net/wp-content/themes/laundry/images/v2/store/anchor.png) no-repeat left 0px;
+    background-size: 12px 14px;
+    background-position: 0px 4px;
+}
+#store .container .search .store-addr {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+#store .container .search .p {
+    position: relative;
+    width: 220px;
+    margin-top: -1.00px;
+    font-family: var(--body-body-1-14-reg-font-family);
+    font-weight: var(--body-body-1-14-reg-font-weight);
+    color: var(--collection-1-text-color);
+    font-size: var(--body-body-1-14-reg-font-size);
+    letter-spacing: var(--body-body-1-14-reg-letter-spacing);
+    line-height: var(--body-body-1-14-reg-line-height);
+    font-style: var(--body-body-1-14-reg-font-style);
+}
+
+@media screen and (max-width: 1023px) {
+    #store .container {
+        width: 100%;
+        height: auto;
+    }
+    #store .container #map{
+        width: calc(100vw - 40px);
+        height: calc(100vw - 40px);
+        position: relative;
+        margin: 0 auto;
+    }
+    #store .container .search {
+        position: relative;
+        width: calc(100vw - 40px);
+        height: 550px;
+        top: 0px;
+        left: 0px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+    #store .container .search .overlap-group {
+        position: relative;
+        width: 100%;
+        height: 550px;
+        left: 0px;
+        background-color: #ffffff;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: var(--shadow-box-drop-02);
+    }
+    #store .container .search .overlap-group .frame {
+        width: 100%;
+    }
+
+    #store .container .search .frame .store-tab {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 26px;
+        padding: 12px 51px;
+        position: relative;
+        flex: 1;
+        white-space: nowrap;
+        background-color: var(--collection-1-background-color-gray-2);
+        font-family: var(--body-body-3-18-reg-font-family);
+        font-weight: var(--body-body-3-18-reg-font-weight);
+        color: var(--collection-1-text-color-disabled);
+        font-size: var(--body-body-3-18-reg-font-size);
+        letter-spacing: var(--body-body-3-18-reg-letter-spacing);
+        line-height: var(--body-body-3-18-reg-line-height);
+    }
+    #store .container .search .frame .store-tab.on {
+        background-color: var(--collection-1-text-color-green);
+        color: #ffffff;
+    }
+
+    #store .container .search .search-block {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        top: 50px;
+        left: 0;
+        background-color: var(--collection-1-text-color-green);
+    }
+
+    #store .container .search .search-block.on {
+        display: block;
+    }
+    #store .container .search .search-block .store-name-search {
+        display: flex;
+        width: calc(100% - 72px);
+        height: 38px;
+        align-items: center;
+        gap: 18px;
+        position: relative;
+        top: 11px;
+        left: 10px;
+        background-color: var(--collection-1-text-color-white);
+        padding: 0px 0px 0px 0px;
+        border-width: 0 0 0 0;
+        padding-left: 10px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #store .container .search .search-block .search-btn1 {
+        position: relative;
+        width: 42px;
+        height: 38px;
+        top: -27px;
+        left: -10px;
+        float: right;
+        padding: 0px 0px 0px 0px;
+        background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/store/search.svg");
+        background-color: white;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #store .container .search .search-block select {
+        border : 0px;
+        text-indent : 10px;
+        position: relative;
+        width: calc(50% - 41px);
+        height: 38px;
+        top: 12px;
+        left: 10px;
+        margin-top: -1.00px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: var(--body-body-3-18-reg-font-weight);
+        color: var(--collection-1-text-color-disabled);
+        letter-spacing: var(--body-body-3-18-reg-letter-spacing);
+        white-space: nowrap;
+        font-style: var(--body-body-3-18-reg-font-style);
+        -webkit-appearance: none;  /* 크롬 화살표 없애기 */
+        -moz-appearance: none; /* 파이어폭스 화살표 없애기 */
+        appearance: none;  /* 화살표 없애기 */
+        background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/store/open.png") no-repeat center right 10px; /* 기존의 우측 화살표를 배경 이미지로 대체 */
+        background-color: white;
+        background-size: 12px 12px;
+    }
+    #store .container .search .search-block select option {
+      padding-left: 10px; /* 왼쪽에 10px 여백 */
+      border-radius: 8px; /* 옵션을 둥글게 */
+      margin: 4px 0; /* 각 옵션 간의 여백 */
+    }
+
+    #store .container .search .search-block .search-btn2 {
+        position: relative;
+        width: 52px;
+        height: 36px;
+        top: 11px;
+        left: -10px;
+        float: right;
+        background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/store/search-btn.svg"); /* 기존의 우측 화살표를 배경 이미지로 대체 */
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #store .container .search .result {
+      display: flex;
+      flex-direction: column;
+      width: calc(100vw - 60px);
+      align-items: center;
+      gap: 25px;
+      position: absolute;
+      top: 127px;
+      left: 10px;
+    }
+    #store .container .search .msg-wrapper {
+      position: relative;
+      align-self: stretch;
+      width: 100%;
+      height: 42px;
+      background-color: var(--collection-1-button-color-green-light);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    #store .container .search .msg {
+      position: absolute;
+      height: 26px;
+      top: 7px;
+      left: 19px;
+      font-family: "Pretendard-SemiBold", Helvetica;
+      font-weight: 400;
+      color: var(--collection-1-text-color);
+      font-size: 16px;
+      line-height: 26px;
+      white-space: nowrap;
+    }
+
+    #store .container .search .store-list {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    /* 스크롤바의 폭 너비 */
+    #store .container .search .store-list::-webkit-scrollbar {
+        width: 0px;
+    }
+    #store .container .search .store-row1 {
+        display: flex;
+        flex-direction: column;
+        left: 0px;
+        width: 100%;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+    }
+    #store .container .search .store-row2 {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+        position: relative;
+        flex: 0 0 auto;
+        width: calc(100%);
+        padding: 15px 0px 15px 0px;
+    }
+    /* Frame 1000004531 */
+    #store .container .search .store-anchor {
+        width: 12px;
+        height: 14px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    #store .container .search .store-name {
+        width: calc(100% - 42px);
+        height: 26px;
+        font-family: 'Pretendard';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-indent: 15px;
+        position: relative;
+        align-self: stretch;
+        margin-top: -1.00px;
+        color: #000000;
+        letter-spacing: var(--body-body-2-16-reg-letter-spacing);
+        background: url(https://laundry24.net/wp-content/themes/laundry/images/v2/store/anchor.png) no-repeat left 0px;
+        background-size: 12px 14px;
+        background-position: 0px 4px;
+    }
+    #store .container .search .store-addr {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex: 0 0 auto;
+    }
+    #store .container .search .p {
+        position: relative;
+        width: 100%;
+        margin-top: -1.00px;
+        font-family: var(--body-body-1-14-reg-font-family);
+        font-weight: var(--body-body-1-14-reg-font-weight);
+        color: var(--collection-1-text-color);
+        font-size: var(--body-body-1-14-reg-font-size);
+        letter-spacing: var(--body-body-1-14-reg-letter-spacing);
+        line-height: var(--body-body-1-14-reg-line-height);
+        font-style: var(--body-body-1-14-reg-font-style);
+    }
+}
+
+
+
+
+
+#store .container .search li {
+    display: inline;
+    margin-left: 20px;
+    font-family: var(--body-body-3-18-reg-font-family);
+    font-size: 13px;
+}
+#store .container .search li.now{
+    color: var(--collection-1-text-color-green);
+}
+
+#store .container .search .text-wrapper-3 {
+  position: absolute;
+  height: 24px;
+  top: 5px;
+  left: 17px;
+  font-family: var(--body-body-1-14-reg-font-family);
+  font-weight: var(--body-body-1-14-reg-font-weight);
+  color: var(--collection-1-text-color-disabled);
+  font-size: var(--body-body-1-14-reg-font-size);
+  letter-spacing: var(--body-body-1-14-reg-letter-spacing);
+  line-height: var(--body-body-1-14-reg-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-1-14-reg-font-style);
+}
+
+#store .container .search .union-wrapper {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+#store .container .search .union {
+  position: absolute;
+  width: 17px;
+  height: 18px;
+  top: 3px;
+  left: 3px;
+}
+
+#store .container .search .span {
+  font-weight: 600;
+  color: #2e3138;
+  letter-spacing: -0.01px;
+}
+
+#store .container .search .text-wrapper-4 {
+  font-family: var(--body-body-2-16-reg-font-family);
+  color: #515662;
+  letter-spacing: var(--body-body-2-16-reg-letter-spacing);
+  font-style: var(--body-body-2-16-reg-font-style);
+  font-weight: var(--body-body-2-16-reg-font-weight);
+  line-height: var(--body-body-2-16-reg-line-height);
+  font-size: var(--body-body-2-16-reg-font-size);
+}
+
+
+
+
+
+#store .container .search .vector {
+  position: relative;
+  width: 260px;
+  height: 1px;
+  margin-bottom: -0.50px;
+  margin-right: -20.00px;
+  object-fit: cover;
+}
+
+#store .container .search .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+#store .container .search .frame-10 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -45.00px;
+}
+
+#store .container .search .img {
+  margin-top: -17411.00px;
+  position: relative;
+  width: 260px;
+  height: 1px;
+  margin-left: -1583.00px;
+  object-fit: cover;
+}
+
+#store .container .search .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-body-1-14-reg-font-family);
+  font-weight: var(--body-body-1-14-reg-font-weight);
+  color: var(--collection-1-text-color);
+  font-size: var(--body-body-1-14-reg-font-size);
+  text-align: center;
+  letter-spacing: var(--body-body-1-14-reg-letter-spacing);
+  line-height: var(--body-body-1-14-reg-line-height);
+  white-space: nowrap;
+  font-style: var(--body-body-1-14-reg-font-style);
+}
+
+#store .container .search .vector-2 {
+  margin-top: -17537.00px;
+  position: relative;
+  width: 260px;
+  height: 1px;
+  margin-left: -1583.00px;
+  object-fit: cover;
+}
+
+.navi-box {
+  width: 226px;
+  height: 183px;
+}
+
+
+.navi-box .frame {
+  display: flex;
+  flex-direction: column;
+  width: 226px;
+  align-items: flex-start;
+  position: relative;
+  top: 1px;
+  left: 7px;
+}
+
+.navi-box .div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.navi-box .title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.navi-box .text-wrapper {
+  width: 170px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.06px;
+  position: relative;
+  margin-top: -1.00px;
+  color: var(--collection-1-text-color);
+  line-height: 24px;
+}
+
+.navi-box .question-div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.navi-box .question-div {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.navi-box .container {
+  flex-direction: column;
+  gap: 6px;
+  padding: 0px 0px 17px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.navi-box .div-wrapper {
+  justify-content: center;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.navi-box .p {
+  width: 202px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.10px;
+  position: relative;
+  margin-top: -1.00px;
+  color: var(--collection-1-text-color);
+  line-height: 24px;
+}
+
+.navi-box .BT-image-navi {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 18px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--collection-1-button-color-black);
+  border-radius: 4px;
+}
+
+.navi-box .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--collection-1-button-color-white);
+  font-size: 14px;
+  letter-spacing: -0.06px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+
+.store-box {
+    width: 226px;
+
+}
+.store-box .title{
+    width: 210px;
+    height: 24px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to -webkit-box height, or 171% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.004em;
+    font-feature-settings: 'case' on;
+
+    color: #2E3138;
+}
+.store-box .title img {
+    width: 36px;
+    height: 40px;
+
+    position: absolute;
+    left: 84%;
+}
+.store-box .addr {
+    width: 210px;
+    padding: 8px 10px 8px 10px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.008em;
+    font-feature-settings: 'case' on;
+
+    color: #2E3138;
+}
+.store-box .link {
+    width: 100%;
+    height: 60px;
+}
+.store-box .link img{
+    width: 69px;
+    height: 32px;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}

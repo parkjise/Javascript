@@ -68,9 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
         naviList[idx].classList.add("on");
       }
     });
-
-    console.log(mainTop);
-    console.log(scrollTop);
   });
 });
 

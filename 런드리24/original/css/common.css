@@ -1,0 +1,773 @@
+/*# sourceURL=https://laundry24.net/wp-content/themes/laundry/css/v2/common.css */
+/*@ sourceURL=https://laundry24.net/wp-content/themes/laundry/css/v2/common.css */
+/* color */
+.black {
+  color: #000;
+}
+.white {
+  color: #fff;
+}
+.gray10 {
+  color: #f1f3f6;
+}
+.gray20 {
+  color: #e4e7ec;
+}
+.gray30 {
+  color: #b9bdc5;
+}
+.gray40 {
+  color: #9da2ae;
+}
+.gray50 {
+  color: #818897;
+}
+.gray70 {
+  color: #515662;
+}
+.gray90 {
+  color: #2e3138;
+}
+.green40 {
+  color: #53d4b1;
+}
+.green50 {
+  color: #3acea6;
+}
+.green70 {
+  color: #0ac290;
+}
+.green90 {
+  color: #089b73;
+}
+.red50 {
+  color: #ff4a55;
+}
+
+/* slide style */
+.slide .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.slick-dots li button {
+  transition: all 0.3s;
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dot.svg") center center no-repeat;
+  color: transparent;
+}
+.slick-dots li.slick-active button {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/about/dot_active.svg") center center
+    no-repeat;
+}
+.slide .slick-arrow {
+  position: absolute;
+  z-index: 9;
+  width: 60px;
+  height: 60px;
+  top: -90px;
+  right: 0px;
+  cursor: pointer;
+  font-size: 0;
+}
+.slide .slick-prev {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/slide-next.svg") no-repeat;
+  right: 115px;
+  transform: rotate(180deg);
+}
+.slide .slick-next {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/slide-next.svg") no-repeat;
+}
+.slide .slick-prev:hover {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/slide-next-hover.svg") no-repeat;
+}
+.slide .slick-next:hover {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/slide-next-hover.svg") no-repeat;
+}
+.slide .slick-prev.slick-disabled {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/slide-next-disabled.svg") no-repeat;
+}
+.slide .slick-next.slick-disabled {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/slide-next-disabled.svg") no-repeat;
+}
+.slick-counter {
+  position: absolute;
+  z-index: 9;
+  top: -65px;
+  right: 75px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 7.6px;
+  color: #818897;
+}
+.slick-counter .current {
+  color: #0ac290;
+}
+.mo-show {
+  display: none !important;
+}
+.mo-hide {
+  display: block !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .mo-show {
+    display: block !important;
+  }
+  .mo-hide {
+    display: none !important;
+  }
+  .slide .slick-arrow {
+    width: 50px;
+    height: 50px;
+    top: 25%;
+    right: 10px;
+  }
+  .slide .slick-prev {
+    right: auto !important;
+    left: -10px;
+  }
+}
+
+/* content  */
+.content {
+  max-width: 1314px;
+  width: 100%;
+  margin: 0 auto;
+}
+.content.type1 {
+  padding: 100px 0 120px;
+}
+
+.content.type2 {
+  padding: 176px 0 90px;
+}
+
+.content.type3 {
+  padding: 100px 0 150px;
+}
+
+.content .titles .title1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.006em;
+  text-align: center;
+}
+.content .titles .title2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.01em;
+}
+.content .titles .sub-title1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+}
+.content .titles .sub-title2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.006em;
+  text-align: center;
+}
+.content .titles .body2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.006em;
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    width: auto;
+    margin: 0;
+  }
+  .content.type2,
+  .content.type3 {
+    padding: 60px 20px 50px;
+  }
+
+  .content .titles .title1 {
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: -0.008em;
+  }
+  .content .titles .title2 {
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: -0.008em;
+  }
+  .content .titles .sub-title1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+  }
+  .content .titles .sub-title2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+  }
+  .content .titles .body2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.006em;
+  }
+}
+
+.wrapper {
+  position: relative;
+}
+
+/* nav */
+nav {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  color: #fff;
+}
+nav .content {
+  display: flex;
+  align-items: center;
+  gap: 190px;
+  height: 60px;
+}
+nav .content .logo-black {
+  display: none;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+nav ul li {
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+nav.fix {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15px);
+}
+nav.fix .content .logo-white {
+  display: none;
+}
+nav.fix .content .logo-black {
+  display: block;
+}
+nav.fix .menu-list li {
+  color: #2e3138;
+}
+nav.fix .menu-list li.on {
+  border-radius: 30px;
+  background-color: #23262b;
+  color: #ffffff;
+}
+
+nav .content .menu-btn {
+  display: none;
+}
+nav .mobile-menu {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  nav .content {
+    gap: initial;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  nav .content .logo {
+    height: 16px;
+  }
+  nav .content .menu-list {
+    display: none;
+  }
+  nav .content .menu-btn {
+    display: block;
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/menu_hbg_btn_white.svg");
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  nav .mobile-menu {
+    display: none;
+  }
+  nav .mobile-menu .mobile-menu-list {
+    gap: 0;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  nav .mobile-menu .mobile-menu-list li {
+    padding: 14px 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #2e3138;
+  }
+  nav.on {
+    height: 100vh;
+    z-index: 1000;
+  }
+  nav.on .content .logo-white {
+    display: none;
+  }
+  nav.on .content .logo-black {
+    display: block;
+  }
+  nav.on .menu-list li {
+    color: #2e3138;
+  }
+  nav.on .content .menu-btn,
+  nav.fix .content .menu-btn {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/menu_hbg_btn_black.svg");
+  }
+
+  nav.on,
+  nav.on.fix {
+    background-color: rgba(255, 255, 255);
+  }
+}
+
+/* footer style */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #2b2d30;
+  padding: 54px 0;
+  margin: 240px 0 72px;
+}
+footer .content {
+  position: relative;
+}
+footer .logo {
+  height: 24px;
+  width: auto;
+}
+footer .info {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 30px 0 34px 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+}
+footer .info ul,
+footer .links {
+  display: flex;
+}
+footer .links {
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+footer .corp {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #c2c6cd;
+}
+footer ul li::after {
+  content: "|";
+  padding: 0 10px;
+}
+
+footer ul li:last-child:after {
+  content: "";
+}
+footer .mo-info .text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  margin-bottom: 6px;
+}
+footer .mo-info .tel {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.008em;
+  color: #53d4b1;
+}
+
+footer .lottie-wrap {
+  position: absolute;
+  top: -255px;
+  left: -30px;
+  width: 240px;
+  height: 214px;
+}
+@media screen and (max-width: 1023px) {
+  footer {
+    padding: 40px 20px;
+    justify-content: flex-start;
+    margin-top: 240px;
+    margin: 240px 0 62px;
+  }
+  footer .content {
+    width: 100%;
+  }
+  footer .info {
+    padding: 16px 0 0;
+    font-size: 12px;
+    line-height: 14px;
+    gap: 8px;
+  }
+  footer ul li::after {
+    padding: 0 6px;
+  }
+  footer .top-box li:nth-child(2)::after {
+    content: "";
+  }
+  footer .mo-info {
+    padding: 24px 0;
+  }
+  footer .links {
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 0;
+  }
+
+  footer .lottie-wrap {
+    top: -240px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+.fixed-area {
+  display: none;
+}
+.fixed-area .inner {
+  width: 100%;
+  height: 72px;
+  background-color: #151719;
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+}
+
+.fixed-area .text-box {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #0deaae;
+}
+.fixed-area .form-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #818897;
+}
+.fixed-area .form-box .inner {
+  display: contents;
+}
+.fixed-area button {
+  background: #0ac290;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.fixed-area .form-box button:hover {
+  background: #089b73;
+}
+
+.fixed-area .form-box input {
+  border: 1px solid #fff;
+  padding: 11px 10px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 115px;
+}
+
+.fixed-area .form-box input:focus {
+  outline: 0;
+}
+.fixed-area .form-box input.error,
+.fixed-area .form-box .select-box.error {
+  border: 1px solid #ff4a55;
+}
+
+.fixed-area .form-box .select-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 11px 14px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #fff;
+  width: 136px;
+}
+.fixed-area .form-box .select-box img {
+  width: auto;
+}
+
+.fixed-area .form-box .select-list {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  bottom: 50px;
+  left: 0;
+  width: calc(100% - 20px);
+  max-height: 430px;
+  padding: 8px 10px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #ebebeb;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.006em;
+}
+.fixed-area .form-box .select-list li {
+  padding: 4px;
+}
+.fixed-area .form-box .select-list li:hover {
+  background-color: #f7f7f7;
+  border-radius: 4px;
+}
+
+.fixed-area .privacy-area .check-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12px;
+}
+.fixed-area .privacy-area .check-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.fixed-area .privacy-area .check-wrap .check-btn {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/icon_unCheck.svg") no-repeat;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.fixed-area .privacy-area .check-wrap.checked .check-btn {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/icon_check.svg") no-repeat;
+}
+
+.fixed-area .check-box span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .fixed-area .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    height: auto;
+  }
+  .fixed-area .text-box {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.006em;
+    height: 62px;
+  }
+  .fixed-area .text-box .img {
+    background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/arrow_btn_mo.svg") no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .fixed-area .form-box {
+    gap: 4px;
+    flex-direction: column;
+    height: 0;
+    opacity: 0;
+  }
+  .fixed-area .form-box .inner {
+  }
+  .fixed-area .form-box input,
+  .fixed-area .form-box .select-box,
+  .fixed-area .privacy-area,
+  .fixed-area button {
+    width: 80%;
+  }
+  .fixed-area .form-box input,
+  .fixed-area .form-box .select-box {
+    padding: 6px 15px;
+  }
+  .fixed-area .check-box span {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.006em;
+  }
+
+  .fixed-area .inner.show .text-box .img {
+    transform: rotate(180deg);
+  }
+  .fixed-area .inner.show .form-box {
+    display: flex;
+    width: 100%;
+    background-color: #2e3138;
+    padding: 20px 0 30px;
+    height: auto;
+    opacity: 1;
+  }
+  .fixed-area .privacy-area .check-wrap {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.006em;
+  }
+  .fixed-area .privacy-area .check-box {
+    margin: 14px 0;
+  }
+  .fixed-area .privacy-area .check-wrap .check-btn {
+    width: 18px;
+    height: 18px;
+  }
+
+  .fixed-area button {
+    padding: 6px 18px;
+    border-radius: 6px;
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.004em;
+  }
+  .fixed-area .form-box .select-list {
+    bottom: 35px;
+  }
+}
+
+.floating-top {
+  display: none;
+  position: fixed;
+  right: 70px;
+  bottom: 105px;
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/floating_top.svg") no-repeat;
+  background-size: cover;
+  width: 68px;
+  height: 68px;
+  cursor: pointer;
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.floating-top:hover {
+  background: url("https://laundry24.net/wp-content/themes/laundry/css/v2/../../images/v2/floating_top_hover.svg") no-repeat;
+}
+
+@media screen and (max-width: 1023px) {
+  .floating-top {
+    width: 58px;
+    height: 58px;
+    right: 10px;
+    bottom: 75px;
+  }
+  .floating-top:hover {
+    width: 58px;
+    height: 58px;
+  }
+  .floating-top.mo-top {
+    bottom: 360px;
+  }
+}
+
+.privacy-popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10000;
+}
+.privacy-popup .inner {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 648px;
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 15px 20px 20px;
+  border-radius: 16px;
+}
+.privacy-popup .inner .btn {
+  width: 24px;
+  cursor: pointer;
+}
+.privacy-popup .inner .policy-title {
+  background-color: #bdbfc4;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  padding: 12px 0;
+  text-align: center;
+  width: 100%;
+}
+.privacy-popup .inner .policy-content {
+  background-color: #acafb5;
+  border-radius: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.006em;
+  padding: 25px 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .privacy-popup .inner {
+    width: 80%;
+  }
+}
